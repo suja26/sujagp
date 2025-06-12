@@ -1,0 +1,60 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Faculty Team – Department of XYZ</h1>
+
+        <div class="faculty-cards">
+            <div class="card">
+                <img src="p4.jfif" alt="G.P.SUJA" class="profile-pic">
+                <h2>G.P.SUJA</h2>
+                <p>Computer Science Dept.</p>
+                <p>Passionate about AI and machine learning.</p>
+                <button class="contact-button" data-name="G.P.SUJA">Contact</button>
+            </div>
+
+            <div class="card">
+                <img src="p2.jfif" alt="Dr.K.B.DEVI SHALINI" class="profile-pic">
+                <h2>Dr.K.B.DEVI SHALINI</h2>
+                <p>ECE Dept.</p>
+                <p>Dedicated robotics researcher and educator.</p>
+                <button class="contact-button" data-name="Dr.K.B.DEVI SHALINI">Contact</button>
+            </div>
+
+            <div class="card">
+                <img src="p3.jfif" alt="Dr.S.ELAMARAN" class="profile-pic">
+                <h2>Dr.S.ELAMARAN</h2>
+                <p>Mechanical Dept.</p>
+                <p>Expert in thermal engeeing and design.</p>
+                <button class="contact-button" data-name="Dr.s.ELAMARAN">Contact</button>
+            </div>
+        </div>
+
+        <h2>Contact a Faculty Member</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
